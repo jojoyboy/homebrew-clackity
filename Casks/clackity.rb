@@ -7,7 +7,7 @@ cask "clackity" do
   desc "Featherweight macOS mechanical keyboard sound effects and click ripple app"
   homepage "https://github.com/jojoyboy/Clackityclack"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "Clackity.app"
 
