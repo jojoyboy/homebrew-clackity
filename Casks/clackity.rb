@@ -1,8 +1,8 @@
 cask "clackity" do
-  version "1.0.0"
-  sha256 "a4c745efc321d1501c6cf551aeed7cf863406a6a3787ee3a471856e35cffc381"
+  version "1.0.2"
+  sha256 "ffaaae280e5c5b89109f6182e8a0afadbe93de46caad9c78ac682b01a7a76737"
 
-  url "https://github.com/jojoyboy/Clackityclack/releases/download/v#{version}/Clackity-macOS.zip"
+  url "https://raw.githubusercontent.com/jojoyboy/homebrew-clackity/main/bin/Clackity-macOS.zip"
   name "Clackity"
   desc "Featherweight macOS mechanical keyboard sound effects and click ripple app"
   homepage "https://github.com/jojoyboy/Clackityclack"
@@ -10,6 +10,7 @@ cask "clackity" do
   depends_on macos: :monterey
 
   app "Clackity.app"
+  binary "#{appdir}/Clackity.app/Contents/MacOS/clack"
 
   uninstall quit: "com.jojoyboy.Clackity"
 
