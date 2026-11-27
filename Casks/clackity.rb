@@ -1,6 +1,6 @@
 cask "clackity" do
-  version "1.0.4"
-  sha256 "8b0e7283c15d86252e7c5ec0f5e107055070e985e7e0b32204d10148ccccf941"
+  version "1.0.5"
+  sha256 "64a9b2911c95f1672e0b54f4cb4ace6154e152f3327f993204fca48500c81adc"
 
   url "https://raw.githubusercontent.com/jojoyboy/homebrew-clackity/main/bin/Clackity-macOS.zip"
   name "Clackity"
